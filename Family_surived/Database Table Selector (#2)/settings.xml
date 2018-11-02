@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="Select *, sibsp+parch+1 as family%%00010from traincsv"/>
+<entry key="statement" type="xstring" value="Select *, sibsp+parch+1 as family%%00010from traincsv%%00010where sibsp+parch+1!=1"/>
 <entry key="execute_without_configure" type="xboolean" value="true"/>
 <entry key="driver" type="xstring" value="org.apache.hive.jdbc.HiveDriver"/>
 <entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
@@ -52,6 +52,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="3c68555e-5116-476c-9227-938359e672d6"/>
+<entry key="file_store_id" type="xstring" value="f82e45d9-d0d2-46a3-ae44-b66425d15adb"/>
 </config>
 </config>

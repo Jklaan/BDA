@@ -6,16 +6,13 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="useDbRowId_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="useDbRowId" type="xboolean" value="true"/>
+<entry key="columnName" type="xstring" value="Zusammen?"/>
+<entry key="hiliting" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="factory" type="xstring" value="org.knime.base.node.io.database.DBConnectionNodeFactory"/>
-<entry key="node-name" type="xstring" value="Database Connection Table Reader"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.valcount.ValueCounterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Value Counter"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
@@ -25,7 +22,7 @@
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
 <entry key="node-feature-version" type="xstring" value="3.6.1.v201809030900"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Database Connection Table Reader"/>
+<entry key="name" type="xstring" value="Value Counter"/>
 <entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
@@ -33,12 +30,12 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
-<entry key="port_object_summary" type="xstring" value="Rows: 354, Cols: 14"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 2, Cols: 1"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="d1a9ddd5-dcff-4f30-8bce-27ea30e9aeae"/>
+<entry key="file_store_id" type="xstring" value="b610d8e9-ab74-481f-84bd-3ca7d430b356"/>
 </config>
 </config>

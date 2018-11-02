@@ -8,7 +8,7 @@
 <entry key="authored-by" type="xstring" value="jonas"/>
 <entry key="authored-when" type="xstring" value="2018-10-15 21:46:19 +0200"/>
 <entry key="lastEdited-by" type="xstring" value="jonas"/>
-<entry key="lastEdited-when" type="xstring" value="2018-11-01 21:41:48 +0100"/>
+<entry key="lastEdited-when" type="xstring" value="2018-11-02 12:38:02 +0100"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
@@ -71,7 +71,7 @@
 <config key="ui_settings">
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
-<entry key="0" type="xint" value="704"/>
+<entry key="0" type="xint" value="524"/>
 <entry key="1" type="xint" value="337"/>
 <entry key="2" type="xint" value="52"/>
 <entry key="3" type="xint" value="78"/>
@@ -80,7 +80,7 @@
 </config>
 <config key="node_9">
 <entry key="id" type="xint" value="9"/>
-<entry key="node_settings_file" type="xstring" value="String To Number (#9)/settings.xml"/>
+<entry key="node_settings_file" type="xstring" value="GroupBy (#9)/settings.xml"/>
 <entry key="node_is_meta" type="xboolean" value="false"/>
 <entry key="node_type" type="xstring" value="NativeNode"/>
 <entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
@@ -88,8 +88,40 @@
 <config key="extrainfo.node.bounds">
 <entry key="array-size" type="xint" value="4"/>
 <entry key="0" type="xint" value="544"/>
-<entry key="1" type="xint" value="317"/>
-<entry key="2" type="xint" value="107"/>
+<entry key="1" type="xint" value="197"/>
+<entry key="2" type="xint" value="52"/>
+<entry key="3" type="xint" value="78"/>
+</config>
+</config>
+</config>
+<config key="node_11">
+<entry key="id" type="xint" value="11"/>
+<entry key="node_settings_file" type="xstring" value="Column Comparator (#11)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="false"/>
+<entry key="node_type" type="xstring" value="NativeNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="684"/>
+<entry key="1" type="xint" value="177"/>
+<entry key="2" type="xint" value="125"/>
+<entry key="3" type="xint" value="78"/>
+</config>
+</config>
+</config>
+<config key="node_13">
+<entry key="id" type="xint" value="13"/>
+<entry key="node_settings_file" type="xstring" value="Value Counter (#13)/settings.xml"/>
+<entry key="node_is_meta" type="xboolean" value="false"/>
+<entry key="node_type" type="xstring" value="NativeNode"/>
+<entry key="ui_classname" type="xstring" value="org.knime.core.node.workflow.NodeUIInformation"/>
+<config key="ui_settings">
+<config key="extrainfo.node.bounds">
+<entry key="array-size" type="xint" value="4"/>
+<entry key="0" type="xint" value="804"/>
+<entry key="1" type="xint" value="177"/>
+<entry key="2" type="xint" value="86"/>
 <entry key="3" type="xint" value="78"/>
 </config>
 </config>
@@ -110,13 +142,25 @@
 </config>
 <config key="connection_2">
 <entry key="sourceID" type="xint" value="7"/>
-<entry key="destID" type="xint" value="9"/>
+<entry key="destID" type="xint" value="8"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 </config>
 <config key="connection_3">
+<entry key="sourceID" type="xint" value="7"/>
+<entry key="destID" type="xint" value="9"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_4">
 <entry key="sourceID" type="xint" value="9"/>
-<entry key="destID" type="xint" value="8"/>
+<entry key="destID" type="xint" value="11"/>
+<entry key="sourcePort" type="xint" value="1"/>
+<entry key="destPort" type="xint" value="1"/>
+</config>
+<config key="connection_5">
+<entry key="sourceID" type="xint" value="11"/>
+<entry key="destID" type="xint" value="13"/>
 <entry key="sourcePort" type="xint" value="1"/>
 <entry key="destPort" type="xint" value="1"/>
 </config>
