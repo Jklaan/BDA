@@ -1,0 +1,4 @@
+database_drivers=C\:\\Users\\jkrom\\Desktop\\ClouderaImpalaJDBC-2.6.4.1005\\ImpalaJDBC4.jar;C\:\\Users\\jkrom\\Desktop\\ClouderaHiveJDBC-2.6.2.1002\\HiveJDBC41.jar
+database_timeout=120
+eclipse.preferences.version=1
+knime.askedToSendStatistics=true

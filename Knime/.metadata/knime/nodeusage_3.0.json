@@ -1,0 +1,204 @@
+
+{
+    "version":"3.6.1.v201809030900",
+    "created":"2018-10-26 13:09",
+    "nodestats":{
+        "nodes":[
+            {
+                "id":"org.knime.base.node.preproc.correlation.compute.CorrelationComputeNodeFactory#Linear Correlation",
+                "nrexecs":15,
+                "nrfails":0,
+                "exectime":433,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy"
+            },
+            {
+                "id":"org.knime.ext.jfc.node.heatmap.JfcHeatMapNodeFactory#HeatMap (JFreeChart)",
+                "nrexecs":13,
+                "nrfails":3,
+                "exectime":1993,
+                "nrcreated":0,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.image.writeimage.WriteImageNodeFactory#Image Port Writer",
+                "nrexecs":13,
+                "nrfails":0,
+                "exectime":220,
+                "nrcreated":0,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.switches.manualif.ManualIfNodeFactory#IF Switch",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.preproc.correlation.compute.CorrelationComputeNodeFactory#Linear Correlation"
+            },
+            {
+                "id":"org.knime.base.node.io.csvreader.CSVReaderNodeFactory#CSV Reader",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":0,
+                "successor":"org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory#Rule-based Row Filter"
+            },
+            {
+                "id":"org.knime.base.node.rules.engine.RuleEngineNodeFactory#Rule Engine",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":37,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.preproc.correlation.compute.CorrelationComputeNodeFactory#Linear Correlation"
+            },
+            {
+                "id":"org.knime.base.node.rules.engine.RuleEngineFilterNodeFactory#Rule-based Row Filter",
+                "nrexecs":3,
+                "nrfails":0,
+                "exectime":24,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy"
+            },
+            {
+                "id":"org.knime.bigdata.hive.node.connector.HiveConnectorNodeFactory#Hive Connector",
+                "nrexecs":2,
+                "nrfails":18,
+                "exectime":85333,
+                "nrcreated":2,
+                "successor":"org.knime.base.node.io.database.DBReaderNodeFactory#Database Reader"
+            },
+            {
+                "id":"org.knime.bigdata.impala.node.connector.ImpalaConnectorNodeFactory#Impala Connector",
+                "nrexecs":0,
+                "nrfails":9,
+                "exectime":1227668,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.io.database.connection.JDBCConnectorNodeFactory#Database Connector",
+                "nrexecs":0,
+                "nrfails":26,
+                "exectime":2987673,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.bigdata.impala.node.loader.ImpalaLoaderNodeFactory#Impala Loader",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.io.database.connection.DBTableSelectorNodeFactory#Database Table Selector",
+                "nrexecs":3,
+                "nrfails":0,
+                "exectime":6355,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy",
+                "nrexecs":11,
+                "nrfails":0,
+                "exectime":446,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.preproc.correlation.compute.CorrelationComputeNodeFactory#Linear Correlation"
+            },
+            {
+                "id":"org.knime.bigdata.hive.node.loader.HiveLoaderNodeFactory#Hive Loader",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.io.database.DBReaderNodeFactory#Database Reader",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":2738,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy"
+            },
+            {
+                "id":"org.knime.base.node.io.database.DBReaderConnectionNodeFactory#Database Table Connector",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.io.database.DBConnectionNodeFactory#Database Connection Table Reader",
+                "nrexecs":2,
+                "nrfails":0,
+                "exectime":5848,
+                "nrcreated":0,
+                "successor":"org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy"
+            },
+            {
+                "id":"org.knime.base.node.preproc.colconvert.stringtonumber.StringToNumberNodeFactory#String To Number",
+                "nrexecs":2,
+                "nrfails":0,
+                "exectime":3,
+                "nrcreated":0,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.bigdata.scripting.nodes.python.hive.PythonScriptHiveNodeFactory#Python Script (Hive)",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.io.database.DBUpdateNodeFactory#Database Update",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.viz.histogram.node.FixedColumnHistogramNodeFactory#Histogram",
+                "nrexecs":0,
+                "nrfails":0,
+                "exectime":0,
+                "nrcreated":1,
+                "successor":"n/a"
+            },
+            {
+                "id":"org.knime.base.node.preproc.colcompare.ColumnComparatorNodeFactory#Column Comparator",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":20,
+                "nrcreated":0,
+                "successor":"org.knime.base.node.preproc.correlation.compute.CorrelationComputeNodeFactory#Linear Correlation"
+            },
+            {
+                "id":"org.knime.base.node.preproc.valcount.ValueCounterNodeFactory#Value Counter",
+                "nrexecs":1,
+                "nrfails":0,
+                "exectime":4,
+                "nrcreated":0,
+                "successor":"n/a"
+            }
+        ],
+        "metaNodes":{
+        },
+        "wrappedNodes":{
+        }
+    },
+    "uptime":19871564,
+    "workflowsOpened":5,
+    "remoteWorkflowsOpened":0,
+    "launches":8,
+    "timeSinceLastStart":2586363,
+    "crashes":0,
+    "properlyShutDown":false
+}

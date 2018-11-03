@@ -1,0 +1,5 @@
+AuthMech=3;
+AuthMech=2;UID=impala
+AuthMech=2
+AuthMech=3
+

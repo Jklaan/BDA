@@ -1,0 +1,3 @@
+
+AuthMech=3;transportMode=http;httpPath=cliservice;
+AuthMech=0;transportMode=http;httpPath=cliservice;

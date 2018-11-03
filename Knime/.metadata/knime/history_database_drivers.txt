@@ -1,0 +1,3 @@
+org.apache.hive.jdbc.HiveDriver
+com.cloudera.hive.jdbc41.HS2Driver
+com.cloudera.impala.jdbc4.Driver
