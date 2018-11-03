@@ -6,25 +6,25 @@
         "nodes":[
             {
                 "id":"org.knime.base.node.preproc.correlation.compute.CorrelationComputeNodeFactory#Linear Correlation",
-                "nrexecs":15,
+                "nrexecs":21,
                 "nrfails":0,
-                "exectime":433,
+                "exectime":501,
                 "nrcreated":1,
                 "successor":"org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy"
             },
             {
                 "id":"org.knime.ext.jfc.node.heatmap.JfcHeatMapNodeFactory#HeatMap (JFreeChart)",
-                "nrexecs":13,
-                "nrfails":3,
-                "exectime":1993,
+                "nrexecs":18,
+                "nrfails":4,
+                "exectime":2362,
                 "nrcreated":0,
                 "successor":"n/a"
             },
             {
                 "id":"org.knime.base.node.image.writeimage.WriteImageNodeFactory#Image Port Writer",
-                "nrexecs":13,
+                "nrexecs":19,
                 "nrfails":0,
-                "exectime":220,
+                "exectime":324,
                 "nrcreated":0,
                 "successor":"n/a"
             },
@@ -102,9 +102,9 @@
             },
             {
                 "id":"org.knime.base.node.preproc.groupby.GroupByNodeFactory#GroupBy",
-                "nrexecs":11,
+                "nrexecs":13,
                 "nrfails":0,
-                "exectime":446,
+                "exectime":506,
                 "nrcreated":1,
                 "successor":"org.knime.base.node.preproc.correlation.compute.CorrelationComputeNodeFactory#Linear Correlation"
             },
@@ -174,19 +174,27 @@
             },
             {
                 "id":"org.knime.base.node.preproc.colcompare.ColumnComparatorNodeFactory#Column Comparator",
-                "nrexecs":1,
+                "nrexecs":3,
                 "nrfails":0,
-                "exectime":20,
+                "exectime":29,
+                "nrcreated":0,
+                "successor":"org.knime.base.filehandling.stringstobinaryobjects.StringsToBinaryObjectsNodeFactory#Strings to Binary Objects"
+            },
+            {
+                "id":"org.knime.base.node.preproc.valcount.ValueCounterNodeFactory#Value Counter",
+                "nrexecs":3,
+                "nrfails":0,
+                "exectime":23,
                 "nrcreated":0,
                 "successor":"org.knime.base.node.preproc.correlation.compute.CorrelationComputeNodeFactory#Linear Correlation"
             },
             {
-                "id":"org.knime.base.node.preproc.valcount.ValueCounterNodeFactory#Value Counter",
+                "id":"org.knime.base.filehandling.stringstobinaryobjects.StringsToBinaryObjectsNodeFactory#Strings to Binary Objects",
                 "nrexecs":1,
                 "nrfails":0,
-                "exectime":4,
-                "nrcreated":0,
-                "successor":"n/a"
+                "exectime":12,
+                "nrcreated":1,
+                "successor":"org.knime.base.node.preproc.correlation.compute.CorrelationComputeNodeFactory#Linear Correlation"
             }
         ],
         "metaNodes":{
@@ -194,11 +202,11 @@
         "wrappedNodes":{
         }
     },
-    "uptime":19871564,
+    "uptime":20804556,
     "workflowsOpened":5,
     "remoteWorkflowsOpened":0,
     "launches":8,
-    "timeSinceLastStart":2586363,
+    "timeSinceLastStart":10050300,
     "crashes":0,
     "properlyShutDown":false
 }

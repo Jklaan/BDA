@@ -10,7 +10,7 @@
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="file_out_path" type="xstring" value="C:\git\BDA\Output\survived.jpeg"/>
+<entry key="file_out_path" type="xstring" value="C:\git\BDA\Output\out"/>
 <config key="overwrite_ok_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
@@ -36,6 +36,6 @@
 <config key="ports"/>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="eab979d7-9ab2-4240-9a22-cbdba045eb32"/>
+<entry key="file_store_id" type="xstring" value="85c3d471-599d-4a24-b9f5-121c5b91294a"/>
 </config>
 </config>

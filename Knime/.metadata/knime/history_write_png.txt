@@ -1,2 +1,3 @@
+C:\git\BDA\Output\out
 C:\git\BDA\Output\dead.jpeg
 C:\git\BDA\Output\survived.jpeg
