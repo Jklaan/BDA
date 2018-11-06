@@ -40,7 +40,7 @@ Select *, sibsp+parch+1 as family
 from traincsv
 where sibsp+parch+1!=1
 ```
-Anschließend wurden die Daten nach der Summe der Überlebenden gruppiert und anschließend geprüft von welchen Familien alle Angehörigen überleben, bzw. mindestens eine Person gestorben ist. Eine detailliertere Auswertung zur Korrelationsmatrix und zur Frage, o Familien dazu tendieren zusammen zu sterben oder zu überleben, findet sich in "Knime Aufgaben.docx".
+Anschließend wurden die Daten nach der Summe der Überlebenden gruppiert und anschließend geprüft von welchen Familien alle Angehörigen überleben, bzw. mindestens eine Person gestorben ist. Eine detailliertere Auswertung zur Korrelationsmatrix und zur Frage, ob Familien dazu tendieren zusammen zu sterben oder zu überleben, findet sich in "Knime Aufgaben.docx".
 
 ## Zusatzaufgabe: Hat die Wahl der Kabine einen Einfluss auf die Überlebensrate der Passagiere?
 
