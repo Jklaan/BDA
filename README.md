@@ -13,10 +13,14 @@ BDA
 │   
 └───KNIME
 |   └─  .metadata
-|   └─  Family_survived         <- KNIME Workflow
+|   └─  Family_survived        
+|   └─  Heatmap_alternative
+|   └─  Heatmap der korrelationen
+|   └─  Knime Aufgaben.docx            <- Beschreibung der Aufgabendurchführung
+|   └─  titanic_kabine                 <- Zusatzaufgabe
 |
 └───Output
-    | out.png
+    | out.png                          
 ```
 ## Annahmen
  1.) Familien können über einen gemeinsamen Nachnamen identifiziert werden
@@ -36,11 +40,24 @@ Select *, sibsp+parch+1 as family
 from traincsv
 where sibsp+parch+1!=1
 ```
-Anschließend wurden die Daten nach der Summer der Überlebenden gruppiert und anschließend geprüft von welchen Familien alle Angehörigen überleben, bzw. mindestens eine Person gestorben ist. 
-Für die Durchführung der Korellation wurde die, durch die Gruppierung, hinzugefügte Spalte "Zusammen?" in einen binäres Objekt umgewandelt.
-Abschließend wurde die Korrelation durchgeführt und die Heatmap als Ergebnis in Form einer Grafik gespeichert.
+Anschließend wurden die Daten nach der Summe der Überlebenden gruppiert und anschließend geprüft von welchen Familien alle Angehörigen überleben, bzw. mindestens eine Person gestorben ist. 
 
-## Beantwortung der Frage 
+## Zusatzaufgabe: Hat die Wahl der Kabine einen Einfluss auf die Überlebensrate der Passagiere?
 
+### Vorbereitung:
 
+-	Testdaten wurden mit der Subgender Datei zusammengefasst, nennen wir das Ergebnis Test_full
+-	die Spalten wurden in Benennung und Reihenfolge an die Trainingsdaten angepasst
+-	anschließend wurden Test_full und die Trainingsdaten zusammengefasst
 
+### Hypothesen:
+
+Nach einer Ersten, kurzen Analyse der Daten wurden größere diskrepanzen in der Datenbasis entdeckt. Dazu wurde folgende Hypothese aufgestellt:
+
+1.) Die Überlebenden wurden im Nachgang bei der Datenerhebung nach Ihrer Kabinenummer und denen ihrer Mitreisenden/Nachbarn gefragt. Und ob           letztere überlebt haben.
+
+Für die Beantwortung der Hauptfrage wurde die zweite Hypothese aufgestellt:
+
+2.) Die Klasse hat einen Merkliche Einfluss auf die Überlebensrate
+
+Die detaillierte Beschreibung und Vorgehensweise der Durchführung und Beantwortung der Analysefragen können dem Dokument "Knime Aufgaben.docx" entnommen werden
