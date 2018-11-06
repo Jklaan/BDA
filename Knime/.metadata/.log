@@ -158,3 +158,14 @@ java.lang.IllegalArgumentException: Node ID "3:8" not contained in workflow, nor
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+!SESSION 2018-11-06 12:55:31.718 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_152
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=de_DE
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2018-11-06 12:55:38.473
+!MESSAGE Warnings while parsing the key bindings from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.bindings' extension point
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-11-06 12:55:38.473
+!MESSAGE Cannot bind to an undefined command: plug-in='org.knime.workbench.editor', id='knime.commands.editor.gridSettings'

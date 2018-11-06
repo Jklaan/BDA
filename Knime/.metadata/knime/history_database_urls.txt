@@ -1,5 +1,5 @@
-jdbc:hive2://localhost:12345/default
 <protocol>://<host>:<port>/<database_name>
+jdbc:hive2://localhost:12345/default
 jdbc:hive2://localhost:10000/default
 jdbc:hive2://localhost:10001/default;AuthMech=3;transportMode=http;httpPath=cliservice;
 jdbc:hive2://localhost:12345/default;AuthMech=3;transportMode=http;httpPath=cliservice;
